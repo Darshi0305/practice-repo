@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.name-hotel {
+    text-align: center;
+    padding: 0 0 10px 0;
+    font-weight: 600;
+}
+body{
+    background: url(Images/Hotel\ Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.logo {
+    width: 160px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+      
+    
+}
+
+.thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.marquee-section {
+    margin-top: 20px;
+}
+
+marquee {
+    color: #0a5dc9;
+}
+
+.marquee {
+    background-color: #0a5dc9;
+    padding: 10px;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.marquee img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.table-manu {
+    border-radius: 10px;
+}
+
+.text p {
+    text-align: justify;
+    padding: 13px 0;
+}
+
+thead {
+    background-color: #2460b4;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Foot-Head {
+    color: #0a5dc9;
+    text-align: center;
+}
+
+tfoot ul {
+    list-style: disc;
+}
+.main{
+    position: relative;
+
+}
+.blackscreen{
+    height: 200vh;
+    width: 100vw;
+    background-color: #f8f0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
